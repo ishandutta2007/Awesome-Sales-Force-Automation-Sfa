@@ -52,7 +52,7 @@ This curated directory tracks top-tier commercial **Sales Force Automation (SFA)
 
 ## 💻 Open-Source GitHub Repositories
 
-Below is a curated list of top open-source Sales Force Automation, CRM, and ERP-integrated sales platforms, sorted by **GitHub Stars_Count (Descending)**:
+Below is a curated list of top open-source Sales Force Automation, CRM, and ERP-integrated sales platforms, sorted by **GitHub_Stars_Count (Descending)**:
 
 1. **[Twenty](https://github.com/twentyhq/twenty)**  
    [![GitHub_Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers)  
