@@ -1,221 +1,150 @@
-# Awesome-Sales-Force-Automation-Sfa
-
-## Top Sales Force Automation (SFA) Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Pipeline Management, Quote-to-Cash & Self-Hosted CRM Platforms*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial Sales Force Automation (SFA) platforms** and **open-source projects** that automate the sales process — from lead capture and opportunity management to quoting, forecasting, and post-sale support.
-
-
-
-**Examples** include Salesforce Sales Force Automation, Microsoft Dynamics 365 Sales, HubSpot Sales Hub, Zoho CRM, SugarCRM, Pipedrive, Freshsales, Oracle Sales Cloud, SAP Sales Cloud, and Workbooks (the category leaders).
-
-
-
-**Open-source emphasis**: Sales force automation is one of the strongest open-source domains. **SuiteCRM** leads as the most feature-complete open-source SFA platform with enterprise-grade customization and no per-user fees . **Odoo CRM** integrates SFA with a full business suite for quote-to-cash automation . **EspoCRM** delivers modern UX with REST API and extensive customization . **Twenty** brings a Notion-style interface with GraphQL API and workflow automation . **Krayin** offers a Laravel-based modern CRM with omni-channel communication . **Vtiger** provides sales, marketing, and support automation in one platform . **Dolibarr** delivers modular ERP/CRM with SFA, invoicing, and point-of-sale . This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Salesforce Sales Force Automation](https://www.salesforce.com/)**  
-
-  **The enterprise SFA standard** — lead and opportunity management, sales forecasting, quote-to-cash, and Einstein AI. **The most comprehensive SFA platform** — used by 150,000+ companies. **Best for enterprises needing full customization**.
-
-
-
-- **[Microsoft Dynamics 365 Sales](https://dynamics.microsoft.com/en-us/sales/)**  
-
-  **Microsoft's SFA platform** — deep Office 365, Teams, and Power Platform integration with Copilot AI. **Best for Microsoft-centric organizations**.
-
-
-
-- **[HubSpot Sales Hub](https://www.hubspot.com/products/sales)**  
-
-  **User-friendly SFA with free tier** — email tracking, meeting scheduling, deal pipelines, and automation. **Best for SMBs scaling from free to enterprise**.
-
-
-
-- **[Zoho CRM](https://www.zoho.com/crm/)**  
-
-  **Best value full-featured SFA** — AI (Zia), omnichannel support, and deep Zoho ecosystem integration. **From $14/user/month**. **Best for budget-conscious SMBs**.
-
-
-
-- **[SugarCRM](https://www.sugarcrm.com/)**  
-
-  **Enterprise SFA with strong customization** and on-premise option. **Best for organizations needing flexibility**.
-
-
-
-- **[Pipedrive](https://www.pipedrive.com/)**  
-
-  **Visual pipeline-focused SFA** — drag-and-drop deal stages and sales-focused automation. **Best for visual pipeline management**.
-
-
-
-- **[Freshsales](https://www.freshworks.com/crm/sales/)**  
-
-  **Freshworks' SFA** — AI (Freddy), built-in phone, and email. **Best for teams wanting integrated communication**.
-
-
-
-- **[Oracle Sales Cloud](https://www.oracle.com/)**  
-
-  **Enterprise SFA** — comprehensive sales automation with AI and analytics. **Best for Oracle ecosystem users**.
-
-
-
-- **[SAP Sales Cloud](https://www.sap.com/)**  
-
-  **SAP's SFA solution** — integrated with SAP ERP and customer experience suite. **Best for SAP-centric enterprises**.
-
-
-
-- **[Workbooks](https://www.workbooks.com/)**  
-
-  **SFA for SMBs** — CRM, sales order processing, and marketing automation. **Best for growing businesses**.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Full SFA/CRM Platforms
-
-
-
-- **[SuiteCRM](https://github.com/salesagility/SuiteCRM)**  
-
-  **The leading open-source SFA/CRM with enterprise-grade features**, AGPL-3.0 licensed with **4,500+ GitHub stars** . **Accounts, contacts, leads, opportunities, quotes, invoices, contracts, campaigns, and reports** . **Extensive module ecosystem** — add-ons for marketing automation, quoting, and integrations . **Self-hosted with full data ownership** — no per-user fees, no vendor lock-in . **The de facto open-source Salesforce alternative** . **Trade-off**: UI is dated compared to modern CRMs . **Best for organizations wanting a full-featured SFA without licensing costs** .
-
-
-
-- **[Odoo CRM](https://github.com/odoo/odoo)**  
-
-  **Open-source SFA within Odoo ERP**, LGPL-3.0 licensed with **49,000+ GitHub stars** (entire Odoo project) . **Pipeline management, lead scoring, email integration, and sales automation** . **Part of the comprehensive Odoo suite** — integrates with accounting, inventory, and marketing for quote-to-cash . **Community edition is free** . **Best for organizations already using Odoo** or wanting an integrated ERP+SFA .
-
-
-
-- **[EspoCRM](https://github.com/espocrm/espocrm)**  
-
-  **Modern, lightweight open-source SFA/CRM**, GPL-3.0 licensed with **1,500+ GitHub stars** . **Clean, intuitive interface** — significantly better UX than SuiteCRM . **Contacts, accounts, leads, opportunities, cases, and campaigns** . **REST API, webhooks, and extensive customization** via Entity Manager . **Self-hosted or cloud** — Docker deployment available . **The best open-source SFA for teams valuing modern UX** . **Best for SMBs and teams wanting a modern, maintainable CRM** .
-
-
-
-- **[Twenty](https://github.com/twentyhq/twenty)**  
-
-  **Modern open-source SFA/CRM with a Notion-like interface**, AGPL-3.0 licensed with **25,000+ GitHub stars** . **The fastest-growing open-source SFA** — modern React/TypeScript/NestJS stack . **GraphQL API, custom objects, kanban pipelines, email integration, and workflow automation** . **Self-hosted with Docker** — no per-user fees . **Best for startups and tech companies wanting a modern SFA foundation** .
-
-
-
-- **[Krayin](https://github.com/krayin/laravel-crm)**  
-
-  **Open-source Laravel SFA/CRM for SMEs**, MIT licensed with **8,000+ GitHub stars** . Built with **Laravel 11, Vue.js, and Tailwind CSS** . **Leads, contacts, accounts, quotes, and activities** . **Omni-channel communication** via email, live chat, social media, and VoIP . **Best for Laravel developers wanting a modern SFA foundation** .
-
-
-
-- **[Vtiger CRM Open Source](https://github.com/vtiger-crm/vtigercrm)**  
-
-  **Open-source SFA with sales, marketing, and support automation**, VPL licensed . **Sales pipeline, email marketing, help desk, inventory, and project management** . **Self-hosted with Docker** . **The most integrated open-source business suite** — includes features beyond sales SFA . **Best for organizations wanting SFA + support + inventory in one platform** .
-
-
-
-- **[Dolibarr](https://github.com/Dolibarr/dolibarr)**  
-
-  **The most comprehensive open-source ERP/CRM for SMBs**, GPL-3.0 licensed . **Modular activation** — CRM, products, orders, invoices, projects, point-of-sale, and more . **Country-specific tax support** and **electronic billing** (FacturX, Peppol) . **Best for SMBs wanting modular SFA within an ERP** .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **OroCRM** — Flexible open-source CRM with territory management and marketing automation .
-
-- **YetiForce CRM** — Open-source CRM with modern UI, task management, and regular updates .
-
-- **CiviCRM** — Open-source CRM for nonprofits with donor management and memberships .
-
-- **ERPNext** — 100% free and open-source ERP with CRM module .
-
-- **X2CRM** — Open-source CRM with marketing automation and sales force automation .
-
-- **Monica** — Personal CRM for managing relationships, not sales .
-
-
-
-**Frameworks for building custom SFA solutions**: Combine **SuiteCRM** for the most feature-complete open-source SFA with enterprise-grade customization . Use **Odoo CRM** for quote-to-cash automation within a full business suite . Deploy **EspoCRM** for modern UX with REST API and extensive customization . Choose **Twenty** for startups wanting a modern, API-first SFA . Integrate **Krayin** for Laravel developers wanting a modern CRM . Use **Vtiger** for SFA + help desk + inventory in one platform . Note that true enterprise SFA with AI-driven forecasting, deep marketing automation, and global ecosystem integrations (Salesforce, Dynamics 365, HubSpot) remains primarily commercial territory; open-source stacks provide strong pipeline management, quote-to-cash, and sales automation foundations that require integration for complete SFA operations.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- SFA platforms handle sensitive customer data and may process PII. Self-hosted solutions require proper security hardening, access controls, and compliance with data privacy regulations (GDPR, CCPA).
-
-- **Open-source SFA requires operational responsibility** — hosting, security patching, backups, and upgrades are your responsibility. SuiteCRM and EspoCRM have active communities; Twenty is newer with rapid development .
-
-- **UI maturity varies significantly** — SuiteCRM and Vtiger have dated interfaces; EspoCRM and Twenty prioritize modern UX . Evaluate against your team's expectations .
-
-- **License considerations**: SuiteCRM uses AGPL-3.0 , Odoo uses LGPL-3.0 , EspoCRM uses GPL-3.0 , Twenty uses AGPL-3.0 , and Krayin uses MIT . Verify licensing against your use case before committing.
-
-- The open-source ecosystem provides strong pipeline management, quote-to-cash, and sales automation foundations, but **AI-driven forecasting, deep marketing automation, and global ecosystem integrations** remain primarily commercial offerings.
-
-
+# Awesome Sales Force Automation (SFA) & Self-Hosted CRM Platforms 🚀
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Sales Force Automation (SFA) Banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Sales-Force-Automation-Sfa/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Sales-Force-Automation-Sfa?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Sales-Force-Automation-Sfa/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Sales-Force-Automation-Sfa?style=social" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
+## 💡 Overview & Market Intelligence
 
+> 📈 **Market Size & Structure**: The global **Sales Force Automation (SFA)** market is estimated at **$12.5B–$14.2B in 2026** (within the broader **$66B+ SaaS CRM market**). The industry exhibits a **moderately fragmented** structure: enterprise tech titans (*Salesforce, Microsoft, Oracle, SAP*) dominate large enterprise dealflow with AI agent infrastructure, while agile mid-market SaaS platforms (*HubSpot, Zoho, Pipedrive*) and high-growth open-source self-hosted solutions (*Twenty, SuiteCRM, Odoo*) capture significant market share among developers, SMBs, and privacy-conscious enterprises.
 
-**Made for sales leaders, sales operations teams, and organizations seeking SFA sovereignty.**  
+This curated directory tracks top-tier commercial **Sales Force Automation (SFA) software platforms** and **open-source GitHub repositories** designed to streamline pipeline management, lead scoring, quote-to-cash workflows, revenue forecasting, and omnichannel customer communication.
 
-Let's make sales force automation more open, transparent, and accessible.
+---
+
+## 📑 Table of Contents
+- [🏢 SaaS & Commercial Platforms](#-saas--commercial-platforms)
+- [💻 Open-Source GitHub Repositories](#-open-source-github-repositories)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [☕ Support & Sponsorship](#-support--sponsorship)
+- [📊 Star History](#-star-history)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+
+---
+
+## 🏢 SaaS & Commercial Platforms
+
+| Platform 🚀 | Market Size / Revenue / Valuation 💎 | Starting Pricing 💵 | Free Tier & Trial Limits ⏳ | Key Features & Best Use Case 🎯 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Dynamics 365 Sales](https://dynamics.microsoft.com/en-us/sales/)** | **$135B+** Total Cloud Revenue (~$4B+ SFA) / **$3.1T Market Cap** | $65/user/month (Sales Professional) | 30-day free trial with full sales feature access (No credit card required) | Deep Office 365, Teams & Copilot AI integration. Best for Microsoft-centric enterprises. |
+| **[Alphabet / Google Workspace CRM Solutions](https://workspace.google.com/)** | **$350B+ Revenue** / **$2.0T Market Cap** | $6/user/month | 14-day free trial across Google Cloud & Workspace tools | Ecosystem extensions & lightweight CRM integrations for Google Workspace. |
+| **[Oracle Sales Cloud](https://www.oracle.com/cx/sales/)** | **$53B+ Annual Revenue** / **$480B Market Cap** | $65/user/month (Professional Edition) | 30-day free trial with $300 cloud credits included | Comprehensive enterprise SFA, predictive forecasting & Oracle ERP sync. Best for Oracle ecosystems. |
+| **[SAP Sales Cloud](https://www.sap.com/products/crm/sales-cloud.html)** | **$36B+ Annual Revenue** / **$260B Market Cap** | $58/user/month (Standard Edition) | 30-day guided free trial environment | Enterprise quote-to-cash automation seamlessly connected with SAP S/4HANA ERP. |
+| **[Salesforce Sales Cloud](https://www.salesforce.com/products/sales-cloud/overview/)** | **$41.5B Revenue (FY26)** / **$223B Market Cap** | $25/user/month (Starter Suite) | Free Suite (up to 2 users forever) & 30-day free trial for Enterprise | Enterprise SFA standard — lead routing, opportunity management & Agentforce AI workflows. |
+| **[HubSpot Sales Hub](https://www.hubspot.com/products/sales)** | **$2.6B Annual Revenue** / **$32B Market Cap** | $15/user/month (Starter Edition) | **Free Tier**: 100% Free plan forever for up to 5 users (includes basic deal pipeline & contact management) | User-friendly SFA with email tracking, meeting scheduling & inbound lead nurturing. |
+| **[Zoho CRM](https://www.zoho.com/crm/)** | **$1.4B+ Annual Revenue** / **$15B+ Estimated Valuation** | $14/user/month (Standard Edition) | **Free Tier**: 100% Free plan forever for up to 3 users (includes basic leads & deals) + 15-day trial | Best value full-featured SFA with Zia AI, omnichannel support & low-code automation. |
+| **[Freshsales](https://www.freshworks.com/crm/sales/)** | **$700M+ Annual Revenue** / **$5.5B Market Cap** | $15/user/month (Growth Edition) | **Free Tier**: Free plan forever for up to 3 users (includes built-in contact management & chat) + 21-day trial | Built-in telephony, email tracking, AI lead scoring (Freddy AI) & visual pipelines. |
+| **[SugarCRM](https://www.sugarcrm.com/)** | **$120M+ Annual Revenue** / **$600M Estimated Valuation** | $19/user/month (Sell Essentials) | 7-day guided trial environment | High customization capabilities with on-premise & hybrid cloud deployment flexibility. |
+| **[Pipedrive](https://www.pipedrive.com/)** | **$110M+ Annual Revenue** / **$1.5B Private Valuation** | $14/user/month (Essential Plan) | 14-day full feature free trial (No credit card required) | Ultra-focused visual drag-and-drop pipeline management & revenue activity tracking. |
+| **[Workbooks](https://www.workbooks.com/)** | **$15M+ Annual Revenue** / **$50M Estimated Valuation** | $37/user/month (CRM Edition) | 30-day free trial environment | Combined CRM, sales order processing, supplier purchasing & marketing for mid-market SMBs. |
+
+---
+
+## 💻 Open-Source GitHub Repositories
+
+Below is a curated list of top open-source Sales Force Automation, CRM, and ERP-integrated sales platforms, sorted by **GitHub Star Count (Descending)**:
+
+1. **[Twenty](https://github.com/twentyhq/twenty)**  
+   [![GitHub Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers)  
+   ⚡ **The modern Notion-style open-source SFA/CRM**, AGPL-3.0 licensed with **58,000+ stars**. Built on React, TypeScript, and NestJS with a GraphQL API, custom objects, kanban deal pipelines, and automated workflow triggers. Ideal for tech startups wanting an extensible modern stack.
+
+2. **[Odoo CRM](https://github.com/odoo/odoo)**  
+   [![GitHub Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
+   ⚡ **Integrated SFA within the Odoo ERP Suite**, LGPL-3.0 licensed with **54,000+ stars**. Full quote-to-cash pipeline automation, lead scoring, email integration, and native synchronization with accounting, inventory, and point-of-sale modules.
+
+3. **[ERPNext](https://github.com/frappe/erpnext)**  
+   [![GitHub Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)  
+   ⚡ **100% Free and Open-Source Enterprise ERP & CRM**, GPL-3.0 licensed with **39,000+ stars**. Complete SFA pipeline management, territory tracking, sales partner management, lead qualification, and order processing built on Frappe Framework.
+
+4. **[Monica](https://github.com/monicahq/monica)**  
+   [![GitHub Stars](https://img.shields.io/github/stars/monicahq/monica?style=social&color=white)](https://github.com/monicahq/monica/stargazers)  
+   ⚡ **Personal CRM & Relationship Automation Engine**, AGPL-3.0 licensed with **25,000+ stars**. Focuses on individual relationship logging, interaction journals, reminders, and activity history for independent sales reps and consultants.
+
+5. **[Krayin CRM](https://github.com/krayin/laravel-crm)**  
+   [![GitHub Stars](https://img.shields.io/github/stars/krayin/laravel-crm?style=social&color=white)](https://github.com/krayin/laravel-crm/stargazers)  
+   ⚡ **Modern Laravel-based Open-Source SFA**, MIT licensed with **23,000+ stars**. Built on Laravel 11 and Vue.js featuring omnichannel contact aggregation, lead stages, webhooks, activity schedules, and customizable quote generators.
+
+6. **[Dolibarr ERP/CRM](https://github.com/Dolibarr/dolibarr)**  
+   [![GitHub Stars](https://img.shields.io/github/stars/Dolibarr/dolibarr?style=social&color=white)](https://github.com/Dolibarr/dolibarr/stargazers)  
+   ⚡ **Modular ERP & Sales Automation Suite**, GPL-3.0 licensed with **7,700+ stars**. Comprehensive catalog management, sales proposal generation, customer order management, e-invoicing (Peppol/FacturX), and point-of-sale integration.
+
+7. **[SuiteCRM](https://github.com/salesagility/SuiteCRM)**  
+   [![GitHub Stars](https://img.shields.io/github/stars/salesagility/SuiteCRM?style=social&color=white)](https://github.com/salesagility/SuiteCRM/stargazers)  
+   ⚡ **The enterprise open-source Salesforce alternative**, AGPL-3.0 licensed with **5,700+ stars**. Highly detailed lead management, accounts, contracts, automated workflow engine, reporting dashboards, and extensive third-party plugin ecosystem.
+
+8. **[EspoCRM](https://github.com/espocrm/espocrm)**  
+   [![GitHub Stars](https://img.shields.io/github/stars/espocrm/espocrm?style=social&color=white)](https://github.com/espocrm/espocrm/stargazers)  
+   ⚡ **Lightweight & fast open-source SFA/CRM**, GPL-3.0 licensed with **3,400+ stars**. Features a responsive single-page Web application, REST API, entity customizer, opportunity tracking, lead distribution rules, and email sync.
+
+9. **[YetiForce CRM](https://github.com/YetiForceCompany/YetiForceCRM)**  
+   [![GitHub Stars](https://img.shields.io/github/stars/YetiForceCompany/YetiForceCRM?style=social&color=white)](https://github.com/YetiForceCompany/YetiForceCRM/stargazers)  
+   ⚡ **Enterprise-grade flexible open-source CRM**, YetiForce Public License with **1,700+ stars**. Embedded time tracking, business processes, security hardening, GDPR compliance tools, and multi-currency sales management.
+
+10. **[CiviCRM Core](https://github.com/civicrm/civicrm-core)**  
+    [![GitHub Stars](https://img.shields.io/github/stars/civicrm/civicrm-core?style=social&color=white)](https://github.com/civicrm/civicrm-core/stargazers)  
+    ⚡ **Open-source CRM for Nonprofits & Advocacy**, AGPL-3.0 licensed with **780+ stars**. Tailored for donor relationship automation, contribution pipelines, pledge management, and advocacy campaigns.
+
+11. **[OroCRM](https://github.com/oroinc/crm)**  
+    [![GitHub Stars](https://img.shields.io/github/stars/oroinc/crm?style=social&color=white)](https://github.com/oroinc/crm/stargazers)  
+    ⚡ **B2B-centric open-source CRM**, OSL-3.0 licensed with **680+ stars**. Designed specifically for B2B sales automation, enterprise territory management, order tracking, and integration with e-commerce platforms.
+
+12. **[X2CRM](https://github.com/X2Engine/X2CRM)**  
+    [![GitHub Stars](https://img.shields.io/github/stars/X2Engine/X2CRM?style=social&color=white)](https://github.com/X2Engine/X2CRM/stargazers)  
+    ⚡ **Sales, Marketing & Service Automation Engine**, GPL-3.0 licensed with **340+ stars**. Provides visual workflow routing, email campaign automation, lead scoring, and web lead capture forms.
+
+13. **[Vtiger CRM Open Source](https://github.com/vtiger-crm/vtigercrm)**  
+    [![GitHub Stars](https://img.shields.io/github/stars/vtiger-crm/vtigercrm?style=social&color=white)](https://github.com/vtiger-crm/vtigercrm/stargazers)  
+    ⚡ **All-in-one sales, support & inventory automation**, VPL licensed with **250+ stars**. Self-hosted SFA suite with deal pipelines, ticketing desk, quotes, invoices, and project tracking.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Please follow these simple steps to add or update SFA products:
+
+1. **Fork** this repository.
+2. Edit `README.md` to add your entry in the appropriate section maintaining alphabetical or star-count ordering.
+3. Ensure entries include valid pricing, star counts, or relevant feature highlights.
+4. Submit a **Pull Request (PR)** with a clear title and description.
+
+Check out our main awesome collection at [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome).
+
+---
+
+## ☕ Support & Sponsorship
+
+If you find this repository helpful for evaluating Sales Force Automation software or building your self-hosted CRM stack, please consider starring the project, sharing it with colleagues, or sponsoring the author!
+
+* 🌟 **Star this repository** on GitHub
+* 📢 **Share** with your sales operations and tech teams
+* 💖 **Sponsor the developer**: [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)
+
+---
+
+## 📊 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Sales-Force-Automation-Sfa&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Sales-Force-Automation-Sfa&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated list** provided for educational and analytical purposes only.
+- Sales Force Automation tools store sensitive business intelligence and customer PII. Self-hosted deployments require adequate server hardening, access controls, backups, and data protection compliance (e.g., GDPR, CCPA).
+- Open-source repository star counts fluctuate dynamically over time.
+
+---
+
+<p align="center">
+  <b>Made with ❤️ for Sales Leaders, Sales Operations Professionals, and Open-Source Advocates.</b>
+</p>
