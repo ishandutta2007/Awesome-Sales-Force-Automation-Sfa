@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Sales-Force-Automation-Sfa/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Sales-Force-Automation-Sfa?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Sales-Force-Automation-Sfa/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Sales-Force-Automation-Sfa?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Sales-Force-Automation-Sfa/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Sales-Force-Automation-Sfa?style=social" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
@@ -52,58 +52,58 @@ This curated directory tracks top-tier commercial **Sales Force Automation (SFA)
 
 ## 💻 Open-Source GitHub Repositories
 
-Below is a curated list of top open-source Sales Force Automation, CRM, and ERP-integrated sales platforms, sorted by **GitHub Star Count (Descending)**:
+Below is a curated list of top open-source Sales Force Automation, CRM, and ERP-integrated sales platforms, sorted by **GitHub Stars_Count (Descending)**:
 
 1. **[Twenty](https://github.com/twentyhq/twenty)**  
-   [![GitHub Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers)  
    ⚡ **The modern Notion-style open-source SFA/CRM**, AGPL-3.0 licensed with **58,000+ stars**. Built on React, TypeScript, and NestJS with a GraphQL API, custom objects, kanban deal pipelines, and automated workflow triggers. Ideal for tech startups wanting an extensible modern stack.
 
 2. **[Odoo CRM](https://github.com/odoo/odoo)**  
-   [![GitHub Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
    ⚡ **Integrated SFA within the Odoo ERP Suite**, LGPL-3.0 licensed with **54,000+ stars**. Full quote-to-cash pipeline automation, lead scoring, email integration, and native synchronization with accounting, inventory, and point-of-sale modules.
 
 3. **[ERPNext](https://github.com/frappe/erpnext)**  
-   [![GitHub Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)  
    ⚡ **100% Free and Open-Source Enterprise ERP & CRM**, GPL-3.0 licensed with **39,000+ stars**. Complete SFA pipeline management, territory tracking, sales partner management, lead qualification, and order processing built on Frappe Framework.
 
 4. **[Monica](https://github.com/monicahq/monica)**  
-   [![GitHub Stars](https://img.shields.io/github/stars/monicahq/monica?style=social&color=white)](https://github.com/monicahq/monica/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/monicahq/monica?style=social&color=white)](https://github.com/monicahq/monica/stargazers)  
    ⚡ **Personal CRM & Relationship Automation Engine**, AGPL-3.0 licensed with **25,000+ stars**. Focuses on individual relationship logging, interaction journals, reminders, and activity history for independent sales reps and consultants.
 
 5. **[Krayin CRM](https://github.com/krayin/laravel-crm)**  
-   [![GitHub Stars](https://img.shields.io/github/stars/krayin/laravel-crm?style=social&color=white)](https://github.com/krayin/laravel-crm/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/krayin/laravel-crm?style=social&color=white)](https://github.com/krayin/laravel-crm/stargazers)  
    ⚡ **Modern Laravel-based Open-Source SFA**, MIT licensed with **23,000+ stars**. Built on Laravel 11 and Vue.js featuring omnichannel contact aggregation, lead stages, webhooks, activity schedules, and customizable quote generators.
 
 6. **[Dolibarr ERP/CRM](https://github.com/Dolibarr/dolibarr)**  
-   [![GitHub Stars](https://img.shields.io/github/stars/Dolibarr/dolibarr?style=social&color=white)](https://github.com/Dolibarr/dolibarr/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/Dolibarr/dolibarr?style=social&color=white)](https://github.com/Dolibarr/dolibarr/stargazers)  
    ⚡ **Modular ERP & Sales Automation Suite**, GPL-3.0 licensed with **7,700+ stars**. Comprehensive catalog management, sales proposal generation, customer order management, e-invoicing (Peppol/FacturX), and point-of-sale integration.
 
 7. **[SuiteCRM](https://github.com/salesagility/SuiteCRM)**  
-   [![GitHub Stars](https://img.shields.io/github/stars/salesagility/SuiteCRM?style=social&color=white)](https://github.com/salesagility/SuiteCRM/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/salesagility/SuiteCRM?style=social&color=white)](https://github.com/salesagility/SuiteCRM/stargazers)  
    ⚡ **The enterprise open-source Salesforce alternative**, AGPL-3.0 licensed with **5,700+ stars**. Highly detailed lead management, accounts, contracts, automated workflow engine, reporting dashboards, and extensive third-party plugin ecosystem.
 
 8. **[EspoCRM](https://github.com/espocrm/espocrm)**  
-   [![GitHub Stars](https://img.shields.io/github/stars/espocrm/espocrm?style=social&color=white)](https://github.com/espocrm/espocrm/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/espocrm/espocrm?style=social&color=white)](https://github.com/espocrm/espocrm/stargazers)  
    ⚡ **Lightweight & fast open-source SFA/CRM**, GPL-3.0 licensed with **3,400+ stars**. Features a responsive single-page Web application, REST API, entity customizer, opportunity tracking, lead distribution rules, and email sync.
 
 9. **[YetiForce CRM](https://github.com/YetiForceCompany/YetiForceCRM)**  
-   [![GitHub Stars](https://img.shields.io/github/stars/YetiForceCompany/YetiForceCRM?style=social&color=white)](https://github.com/YetiForceCompany/YetiForceCRM/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/YetiForceCompany/YetiForceCRM?style=social&color=white)](https://github.com/YetiForceCompany/YetiForceCRM/stargazers)  
    ⚡ **Enterprise-grade flexible open-source CRM**, YetiForce Public License with **1,700+ stars**. Embedded time tracking, business processes, security hardening, GDPR compliance tools, and multi-currency sales management.
 
 10. **[CiviCRM Core](https://github.com/civicrm/civicrm-core)**  
-    [![GitHub Stars](https://img.shields.io/github/stars/civicrm/civicrm-core?style=social&color=white)](https://github.com/civicrm/civicrm-core/stargazers)  
+    [![GitHub_Stars](https://img.shields.io/github/stars/civicrm/civicrm-core?style=social&color=white)](https://github.com/civicrm/civicrm-core/stargazers)  
     ⚡ **Open-source CRM for Nonprofits & Advocacy**, AGPL-3.0 licensed with **780+ stars**. Tailored for donor relationship automation, contribution pipelines, pledge management, and advocacy campaigns.
 
 11. **[OroCRM](https://github.com/oroinc/crm)**  
-    [![GitHub Stars](https://img.shields.io/github/stars/oroinc/crm?style=social&color=white)](https://github.com/oroinc/crm/stargazers)  
+    [![GitHub_Stars](https://img.shields.io/github/stars/oroinc/crm?style=social&color=white)](https://github.com/oroinc/crm/stargazers)  
     ⚡ **B2B-centric open-source CRM**, OSL-3.0 licensed with **680+ stars**. Designed specifically for B2B sales automation, enterprise territory management, order tracking, and integration with e-commerce platforms.
 
 12. **[X2CRM](https://github.com/X2Engine/X2CRM)**  
-    [![GitHub Stars](https://img.shields.io/github/stars/X2Engine/X2CRM?style=social&color=white)](https://github.com/X2Engine/X2CRM/stargazers)  
+    [![GitHub_Stars](https://img.shields.io/github/stars/X2Engine/X2CRM?style=social&color=white)](https://github.com/X2Engine/X2CRM/stargazers)  
     ⚡ **Sales, Marketing & Service Automation Engine**, GPL-3.0 licensed with **340+ stars**. Provides visual workflow routing, email campaign automation, lead scoring, and web lead capture forms.
 
 13. **[Vtiger CRM Open Source](https://github.com/vtiger-crm/vtigercrm)**  
-    [![GitHub Stars](https://img.shields.io/github/stars/vtiger-crm/vtigercrm?style=social&color=white)](https://github.com/vtiger-crm/vtigercrm/stargazers)  
+    [![GitHub_Stars](https://img.shields.io/github/stars/vtiger-crm/vtigercrm?style=social&color=white)](https://github.com/vtiger-crm/vtigercrm/stargazers)  
     ⚡ **All-in-one sales, support & inventory automation**, VPL licensed with **250+ stars**. Self-hosted SFA suite with deal pipelines, ticketing desk, quotes, invoices, and project tracking.
 
 ---
@@ -114,7 +114,7 @@ Contributions are warmly welcomed! Please follow these simple steps to add or up
 
 1. **Fork** this repository.
 2. Edit `README.md` to add your entry in the appropriate section maintaining alphabetical or star-count ordering.
-3. Ensure entries include valid pricing, star counts, or relevant feature highlights.
+3. Ensure entries include valid pricing, Stars_Counts, or relevant feature highlights.
 4. Submit a **Pull Request (PR)** with a clear title and description.
 
 Check out our main awesome collection at [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome).
@@ -141,7 +141,7 @@ If you find this repository helpful for evaluating Sales Force Automation softwa
 
 - This is a **community-curated list** provided for educational and analytical purposes only.
 - Sales Force Automation tools store sensitive business intelligence and customer PII. Self-hosted deployments require adequate server hardening, access controls, backups, and data protection compliance (e.g., GDPR, CCPA).
-- Open-source repository star counts fluctuate dynamically over time.
+- Open-source repository Stars_Counts fluctuate dynamically over time.
 
 ---
 
