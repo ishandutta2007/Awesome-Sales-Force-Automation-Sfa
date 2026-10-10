@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9" />
+    </linearGradient>
+
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0" />
+    </linearGradient>
+
+    <radialGradient id="glowOrb1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowOrb2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Glow Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <style>
+    /* CSS Animations */
+    @keyframes floatSlow {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+    }
+
+    @keyframes floatReverse {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(8px); }
+    }
+
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.3; transform: scale(1); }
+      50% { opacity: 0.6; transform: scale(1.1); }
+    }
+
+    @keyframes dashMove {
+      0% { stroke-dashoffset: 24; }
+      100% { stroke-dashoffset: 0; }
+    }
+
+    @keyframes barGrow {
+      0%, 100% { height: 28px; y: 92px; }
+      50% { height: 50px; y: 70px; }
+    }
+
+    @keyframes barGrow2 {
+      0%, 100% { height: 45px; y: 75px; }
+      50% { height: 25px; y: 95px; }
+    }
+
+    @keyframes barGrow3 {
+      0%, 100% { height: 60px; y: 60px; }
+      50% { height: 75px; y: 45px; }
+    }
+
+    @keyframes nodePulse {
+      0%, 100% { r: 5px; opacity: 0.6; }
+      50% { r: 8px; opacity: 1; }
+    }
+
+    /* Animation Classes applied to background elements ONLY */
+    .bg-orb1 { animation: pulseGlow 6s ease-in-out infinite; transform-origin: 900px 180px; }
+    .bg-orb2 { animation: pulseGlow 8s ease-in-out infinite reverse; transform-origin: 300px 300px; }
+    .card-float1 { animation: floatSlow 5s ease-in-out infinite; }
+    .card-float2 { animation: floatReverse 6s ease-in-out infinite; }
+    .flow-line { stroke-dasharray: 6 6; animation: dashMove 2s linear infinite; }
+    .bar-anim-1 { animation: barGrow 4s ease-in-out infinite; }
+    .bar-anim-2 { animation: barGrow2 3.5s ease-in-out infinite; }
+    .bar-anim-3 { animation: barGrow3 5s ease-in-out infinite; }
+    .node-anim { animation: nodePulse 3s ease-in-out infinite; }
+  </style>
+
+  <!-- Base Background Layer -->
+  <rect width="1200" height="420" rx="16" fill="url(#bgGradient)" />
+
+  <!-- Background Ambient Glows (Behind all content) -->
+  <circle class="bg-orb1" cx="950" cy="180" r="280" fill="url(#glowOrb1)" />
+  <circle class="bg-orb2" cx="200" cy="320" r="220" fill="url(#glowOrb2)" />
+
+  <!-- Background Decorative Tech Grid Lines -->
+  <g opacity="0.08" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="70" x2="1200" y2="70" />
+    <line x1="0" y1="140" x2="1200" y2="140" />
+    <line x1="0" y1="210" x2="1200" y2="210" />
+    <line x1="0" y1="280" x2="1200" y2="280" />
+    <line x1="0" y1="350" x2="1200" y2="350" />
+    
+    <line x1="150" y1="0" x2="150" y2="420" />
+    <line x1="350" y1="0" x2="350" y2="420" />
+    <line x1="550" y1="0" x2="550" y2="420" />
+    <line x1="750" y1="0" x2="750" y2="420" />
+    <line x1="950" y1="0" x2="950" y2="420" />
+    <line x1="1150" y1="0" x2="1150" y2="420" />
+  </g>
+
+  <!-- DYNAMIC BACKGROUND GRAPHICS (Positioned on the RIGHT side so text on LEFT is never covered) -->
+  <g id="dynamic-bg-elements">
+    
+    <!-- Animated Flow / Pipeline Connections (Right Side) -->
+    <path d="M 760 210 Q 840 150 920 210 T 1080 210" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.3" />
+    <path class="flow-line" d="M 760 210 Q 840 150 920 210 T 1080 210" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.7" />
+
+    <circle cx="760" cy="210" r="5" fill="#38bdf8" class="node-anim" />
+    <circle cx="920" cy="210" r="5" fill="#818cf8" class="node-anim" style="animation-delay: 1s;" />
+    <circle cx="1080" cy="210" r="5" fill="#c084fc" class="node-anim" style="animation-delay: 2s;" />
+
+    <!-- Animated Card 1: Pipeline Analytics (Right Top) -->
+    <g class="card-float1" transform="translate(800, 50)" filter="url(#shadow)">
+      <rect width="260" height="130" rx="12" fill="url(#cardGrad1)" stroke="#334155" stroke-width="1.5" />
+      <text x="20" y="32" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" letter-spacing="0.5">REVENUE &amp; PIPELINE</text>
+      <text x="20" y="55" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="700">$14.2B Market</text>
+
+      <!-- Animated Bar Chart -->
+      <g transform="translate(140, 0)">
+        <rect class="bar-anim-1" x="20" y="70" width="12" height="40" rx="3" fill="#38bdf8" />
+        <rect class="bar-anim-2" x="40" y="80" width="12" height="30" rx="3" fill="#818cf8" />
+        <rect class="bar-anim-3" x="60" y="50" width="12" height="60" rx="3" fill="#c084fc" />
+        <rect class="bar-anim-1" x="80" y="65" width="12" height="45" rx="3" fill="#34d399" style="animation-delay: 0.5s;" />
+      </g>
+
+      <path d="M 20 100 L 50 85 L 80 92 L 120 75" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round" />
+      <circle cx="120" cy="75" r="3" fill="#34d399" />
+    </g>
+
+    <!-- Animated Card 2: AI Workflows / Lead Conversion (Right Bottom) -->
+    <g class="card-float2" transform="translate(740, 230)" filter="url(#shadow)">
+      <rect width="280" height="120" rx="12" fill="url(#cardGrad1)" stroke="#334155" stroke-width="1.5" />
+      <text x="20" y="32" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" letter-spacing="0.5">AUTOMATION ENGINE</text>
+      
+      <!-- Status Pill -->
+      <rect x="20" y="46" width="110" height="24" rx="12" fill="#0284c7" fill-opacity="0.2" stroke="#0369a1" stroke-width="1"/>
+      <circle cx="32" cy="58" r="4" fill="#38bdf8" class="node-anim" />
+      <text x="42" y="62" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">AI Deal Scoring</text>
+
+      <rect x="140" y="46" width="120" height="24" rx="12" fill="#059669" fill-opacity="0.2" stroke="#047857" stroke-width="1"/>
+      <circle cx="152" cy="58" r="4" fill="#34d399" />
+      <text x="162" y="62" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Quote-to-Cash</text>
+
+      <text x="20" y="98" fill="#64748b" font-family="system-ui, -apple-system, sans-serif" font-size="11">Active Integrations: Twenty, SuiteCRM, Odoo...</text>
+    </g>
+
+    <!-- Floating Micro Pills -->
+    <g class="card-float1" transform="translate(1040, 200)" style="animation-delay: 1.5s;">
+      <rect width="110" height="32" rx="16" fill="#1e1b4b" stroke="#6366f1" stroke-width="1" />
+      <text x="55" y="20" fill="#a5b4fc" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" text-anchor="middle">⚡ 58k+ Stars</text>
+    </g>
+  </g>
+
+  <!-- FOREGROUND TEXT & BRANDING LAYER (TOP MOST - STRICTLY PROTECTED FROM OVERLAYS) -->
+  <g id="foreground-content" transform="translate(60, 0)">
+    
+    <!-- Top Pill Badge -->
+    <g transform="translate(0, 70)" filter="url(#shadow)">
+      <rect width="250" height="32" rx="16" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.6"/>
+      <circle cx="16" cy="16" r="5" fill="#38bdf8" />
+      <text x="30" y="20" fill="#e2e8f0" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="1">AWESOME REPOSITORY</text>
+    </g>
+
+    <!-- Main Title (Line 1) -->
+    <text x="0" y="155" fill="url(#textGradient)" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="800" letter-spacing="-0.5" filter="url(#shadow)">
+      Sales Force Automation
+    </text>
+
+    <!-- Main Title Subheading (Line 2) -->
+    <text x="0" y="205" fill="#ffffff" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="700" letter-spacing="-0.5" filter="url(#shadow)">
+      &amp; Self-Hosted CRM Platforms
+    </text>
+
+    <!-- Subtitle Description -->
+    <text x="0" y="250" fill="#94a3b8" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400">
+      Curated directory of top-tier commercial SFA software &amp; open-source GitHub solutions.
+    </text>
+
+    <!-- Feature Highlights Chips Row -->
+    <g transform="translate(0, 290)">
+      <!-- Chip 1 -->
+      <g>
+        <rect width="165" height="36" rx="8" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1" />
+        <text x="14" y="23" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">📊 Market Analysis</text>
+      </g>
+      <!-- Chip 2 -->
+      <g transform="translate(177, 0)">
+        <rect width="160" height="36" rx="8" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1" />
+        <text x="14" y="23" fill="#818cf8" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">🚀 Commercial SaaS</text>
+      </g>
+      <!-- Chip 3 -->
+      <g transform="translate(349, 0)">
+        <rect width="180" height="36" rx="8" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1" />
+        <text x="14" y="23" fill="#c084fc" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">💻 Open-Source CRMs</text>
+      </g>
+    </g>
+
+    <!-- Accent Separator Line -->
+    <line x1="0" y1="365" x2="620" y2="365" stroke="url(#accentLine)" stroke-width="2" />
+
+  </g>
+</svg>
